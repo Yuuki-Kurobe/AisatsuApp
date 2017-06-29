@@ -3,7 +3,6 @@ package com.example.kurobe.aisatsuapp;
 import android.app.TimePickerDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -13,7 +12,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     TextView mTextView;
     int myHour;
-    int myMinute;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
